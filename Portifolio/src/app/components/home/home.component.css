@@ -1,0 +1,110 @@
+.container-main{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(26, 157, 245);
+    color: aliceblue;
+}
+.container-cima{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.perfil-img{
+    display:flex;
+    width: 30%; 
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    border-radius: 3px;
+    background-color: rgb(19, 31, 46);
+    box-shadow: -5px  5px 5px rgb(15, 23, 34);
+}   
+.texto-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+    margin: 10px;
+    padding: 10px;
+    line-height: 3rem;
+    background-color: rgb(19, 31, 46);
+    box-shadow: -5px  5px 5px rgb(15, 23, 34);
+    border-radius: 3px;
+    }
+    .desktop{
+        font-size: 2em;
+    }
+    .texto-container em{
+        color: rgb(24, 214, 119);
+        font-weight: bolder;
+    }
+    .projetos-geral{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+        justify-content: center;
+     }
+     .projetos-geral h2{
+        line-height: 3rem;
+        margin:10px;
+        font-size: 2.5em;
+     }
+     .projetos-container{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 10px; 
+        flex-wrap: wrap;
+        text-align: center;    
+        border-radius: 3px;
+        background-color: rgb(19, 31, 46);
+        box-shadow: -5px  5px 5px rgb(15, 23, 34);
+     }
+     .projetos-container li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+        flex-direction: column;
+        
+     }
+     .projetos-container h3{
+        width: 20vw;
+        color:rgb(26, 157, 245);
+        line-height: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        font-family: 'Mirc-font';
+        font-size: 2em;
+        height: 2em;
+        transition: 0.5s all;
+     }
+        .projetos-container h3:hover{
+           color: rgb(24, 214, 119);
+           background-color:rgb(15, 23, 34);
+           border-radius: 3px;
+        }
+     .logo-alura,.logo-freeway,.typer-logo,.logo-snake{
+        
+        margin: 15px;
+        width: 250px; /* width of container */
+        height:  250px; /* height of container */
+        object-fit:contain;
+        border-radius: 3px;
+        background-color: aliceblue;
+        border: 4px solid  aliceblue;
+        transition: 0.4s all;       
+     }
+        .logo-alura:hover,.logo-freeway:hover,.typer-logo:hover,.logo-snake:hover{
+           cursor: pointer;
+           transform: scale(1.01)rotate(1deg);
+        }
+        .logo-alura:active,.logo-freeway:active,.typer-logo:active{
+           transform: scale(0.99);
+        }
+     
+     

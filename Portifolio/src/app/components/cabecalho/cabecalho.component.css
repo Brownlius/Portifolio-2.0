@@ -27,50 +27,37 @@
    color: rgb(24, 214, 119);
 }
 
-/*  Nome e função */
-
-.social-icons,
-.navegacao-sites {
-   padding: 10px;
-   font-family: 'Mirc-font';
+.listas {
    display: flex;
    flex-direction: column;
    align-items: center;
+   width:20%;
 }
 
-.social-icons_UL,
-.navegacao-sites_UL {
+.ul {
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ padding: 10px 0;
+}
+.icon a{
    display: flex;
+   width: 100%;
+   justify-content: center;
 }
-
-.social-icons_UL a,
-.navegacao-sites_UL a {
-   padding-right: 10px;
-   font-size: 2.5rem;
-   transition: 0.5s all;
-}
-
-.navegacao-sites_UL a:hover {
-   cursor: pointer;
-   color: rgb(24, 214, 119);
-   background-color: rgb(15, 23, 34);
-   border-radius: 5px;
-}
-
-.navegacao-sites_UL a:active {
-   transform: scale(0.9);
-}
-
-.navegacao-sites {
-   text-transform: uppercase;
-   font-size: 3rem;
-}
-
-.social-icons img {
-   width: 35px;
-   padding: 10px;
+.icon img{
+   width: 30%;
    animation: rede-sociais 3s linear infinite;
 }
+.sites_links li{
+   font-size: 2.5rem;
+}
+.sites_links a{
+   font-family: 'Mirc-font';
+   padding: 10px;
+}
+
 
 @keyframes rede-sociais {
    from {
@@ -88,28 +75,4 @@
    to {
       transform: scale(1) rotate(2deg);
    }
-}
-
-.social-icons li :hover {
-   animation-play-state: paused;
-   cursor: pointer;
-}
-
-.icon {
-   background-size: cover;
-
-}
-
-.__instagram {
-   background-image: url(../../../assets/images/redes_sociais/instagram_icon.png);
-}
-
-.__github {
-
-   background-image: url(../../../assets/images/redes_sociais/github_icon.png);
-}
-
-.__linkedin {
-
-   background-image: url(../../../assets/images/redes_sociais/linkedin_icon.png);
 }

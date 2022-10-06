@@ -1,1 +1,113 @@
-/* You can add global styles to this file, and also import other style files */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+nav,ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'Mirc-font';
+    src: url('./assets/fonts/mirc/FixedSys.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Fira-font';
+    src: url('./assets/fonts/fira_code/FiraCode-Retina.ttf') format('truetype');
+  }
+ 
+ html{
+    scrollbar-color: aliceblue rgb(19, 31, 46);
+    scrollbar-width:thin;
+    overflow-x:hidden ;
+    font-family: 'Fira-font';
+    color: aliceblue;
+ }
+ body{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    background-color: rgb(26, 157, 245);
+  }
+ a{
+    color: rgb(26, 157, 245);
+ }
+ .subtitulo-azul{
+    color: rgb(26, 157, 245);
+    font-family: 'Mirc-font';
+    line-height: 1.9rem;
+    font-size: 1.5rem;
+ }
+ .subtitulo{
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.7rem;
+    font-family: 'Mirc-font';  
+ }
+ .img-voltar{
+    display: flex;
+    transition: 1s;
+ }
+ .img-voltar:hover{
+    transform: scale(1.05) rotate(1deg);
+    cursor: pointer;
+ }
+ ::-webkit-scrollbar {
+    width: 5px;
+ }   
+ ::-webkit-scrollbar-track {
+    background:rgb(19, 31, 46);     
+ }
+ ::-webkit-scrollbar-thumb {
+    background-color:aliceblue;   
+    
+ }
+ ::selection{
+    background: rgb(18, 28, 41);
+ }
+ 
