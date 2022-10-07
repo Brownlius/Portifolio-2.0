@@ -1,0 +1,59 @@
+<div id="containers" class="container-img_perfil">
+    <h2 class="subtitulo-azul">Perfil</h2>
+    <div id="containers-inner">
+        <div>
+            <img src="../../../assets/gif_perfil/perfil.gif" class="perfil-img">
+            <h2 class="nome_img">
+                Pedro Almeida
+            </h2>
+            <p class="funcao_img">
+                Software Developer
+            </p>
+        </div>
+        <!-- <button class="botao">Download CV <img class= "download-gif"src="./src/images/download.gif"</button> -->
+    </div>
+    <div class="detalhes">
+        <h2 class="subtitulo-azul">Detalhes</h2>
+        <div id="containers-inner">
+            <p><br>Nome : Pedro Henrique S. de Almeida<br><br>
+                Endereço : Campo Grande - MS<br><br>
+                Celular : (67) 9.9322-6534 (67) 9.8429-3989<br><br>
+                E-mail : p.almeida@live.com<br><br>
+            </p>
+        </div>
+    </div>
+    <div class="me-contrate">
+        <h2 class="subtitulo-azul">Me Contrate</h2>
+        <div id="containers-inner" class="contact-right clearfix">
+
+            <form action="https://api.staticforms.xyz/submit" method="post" class="formulario">
+                <input type="hidden" name="accessKey" value="b8309469-3849-4089-95c2-ef944a443365">
+                <input type="hidden" name="redirectTo" value="https://pedroalmeida.vercel.app/CV/index.html">
+                <div class="input-field">
+                    <label>Nome</label>
+                    <input type="text" name="name" required>
+
+                </div>
+                <div class="input-field">
+                    <label class="">Email</label>
+                    <input type="text" name="email" data-valid="email" data-error="Email deve ser válido." required>
+
+                </div>
+
+                <div class="input-field">
+                    <label class="">Assunto</label>
+                    <input type="text" name="subject" required>
+
+                </div>
+
+                <div class="input-mensagem">
+                    <h2>Mensagem</h2>
+                    <textarea rows="7" name="message" class="materialize-textarea" required></textarea>
+                    <div></div>
+                </div>
+                <button type="submit" value="Enviar" class="botao">Enviar</button>
+
+            </form>
+        </div>
+    </div>
+</div>

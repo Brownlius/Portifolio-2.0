@@ -24,39 +24,42 @@
 }
 
 .funcao em {
-   color: rgb(24, 214, 119);
+   color: var(--verde);
 }
 
 .listas {
    display: flex;
    flex-direction: column;
    align-items: center;
-   width:20%;
+   width: 20%;
 }
 
 .ul {
- display: flex;
- justify-content: center;
- flex-direction: row;
- flex-wrap: nowrap;
- padding: 10px 0;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   padding: 10px 0;
 }
-.icon a{
+
+.icon a {
    display: flex;
    width: 100%;
    justify-content: center;
 }
-.icon img{
+
+.icon img {
    width: 30%;
    animation: rede-sociais 3s linear infinite;
 }
-.sites_links li{
+
+.sites_links li {
    font-size: 2.5rem;
-}
-.sites_links a{
    font-family: 'Mirc-font';
    padding: 10px;
+   color: var(--azul_claro);
 }
+
 
 
 @keyframes rede-sociais {

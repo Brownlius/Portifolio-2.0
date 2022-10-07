@@ -36,7 +36,7 @@
         font-size: 2em;
     }
     .texto-container em{
-        color: rgb(24, 214, 119);
+        color: var(--verde);
         font-weight: bolder;
     }
     .projetos-geral{
@@ -84,7 +84,7 @@
         transition: 0.5s all;
      }
         .projetos-container h3:hover{
-           color: rgb(24, 214, 119);
+           color: var(--verde);
            background-color:rgb(15, 23, 34);
            border-radius: 3px;
         }

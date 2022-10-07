@@ -1,0 +1,264 @@
+#containers {
+    padding: 10px;
+    background: rgb(18, 28, 41);
+    border-radius: 3px;
+}
+
+#containers-inner {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(19, 31, 46);
+    box-shadow: -5px 5px 5px rgb(15, 23, 34);
+}
+
+.container-main {
+    position: relative;
+    width: 70vw;
+    float: right;
+    margin: 10px 10px 10px 0;
+    background-size: cover;
+    min-height: 100vh;
+    color: aliceblue;
+}
+
+.ola_mundo-container {
+    line-height: 3rem;
+    position: sticky;
+    top: 0;
+}
+
+.saudacao-main {
+    text-align: center;
+    font-family: 'Mirc-font';
+    font-size: 2.5rem;
+}
+
+.sobre_mim-container {
+    margin: 20px 0;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    height: 40vh;
+}
+
+.container-graficos {
+    overflow-y: hidden;
+    display: flex;
+    align-self: center;
+    width: calc(100% - 20px);
+}
+
+.lista-graficos {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.container-graficos li {
+    display: flex;
+    width: 30%;
+    min-height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+#grafico {
+    height: 90%;
+    display: flex;
+    border-radius: 50%;
+}
+
+.html {
+    background: conic-gradient(var(--verde) 85%, rgb(18, 28, 41) 15%);
+}
+
+.css {
+    background: conic-gradient(var(--verde) 80%, rgb(18, 28, 41) 20%);
+}
+
+.js {
+    background: conic-gradient(var(--verde) 60%, rgb(18, 28, 41) 50%);
+}
+
+.illustrator {
+    background: conic-gradient(var(--verde) 85%, rgb(18, 28, 41) 15%);
+}
+
+.CSharp {
+    background: conic-gradient(var(--verde) 55%, rgb(18, 28, 41) 45%);
+}
+
+.CMoreMore {
+    background: conic-gradient(var(--verde) 70%, rgb(18, 28, 41) 30%);
+}
+
+.container-img_perfil {
+    overflow-y: scroll;
+    float: left;
+    width: 25vw;
+    height: 920px;
+    margin: 10px 0 10px 10px;
+
+}
+
+.perfil-img {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 20vw;
+    max-width: 400px;
+    object-fit: cover;
+    transition: 0.3s all;
+}
+
+.perfil-img:hover {
+    transform: scale(1.01);
+}
+
+.nome_img {
+    font-family: 'Mirc-font';
+    text-align: center;
+    font-size: 2rem;
+}
+
+.funcao_img {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--verde);
+}
+
+.botao {
+    margin: 15px auto 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    font-family: 'Mirc-font';
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.botao:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.download-gif {
+    width: 45px;
+}
+
+.detalhes {
+    line-height: 1.2rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 780px) {
+
+    .container-img_perfil {
+        display: flex;
+        position: relative;
+        width: 90vw;
+        float: none;
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    .perfil-img {
+        width: 80vw;
+    }
+}
+
+.input-field {
+    align-items: flex-start;
+    font-size: 1.1rem;
+    align-items: center;
+    margin: 15px 0;
+    display: flex;
+    color: aliceblue;
+    padding: 5px;
+    border-bottom: 2px solid aliceblue;
+}
+
+.input-field label {
+    width: 20%;
+}
+
+.input-field input {
+    font-family: 'osvald', sans-serif;
+    font-size: 1rem;
+    width: 80%;
+    color: aliceblue;
+    padding: 5px;
+    margin: 5px 10px;
+    background: rgb(18, 28, 41);
+    border-radius: 3px;
+    border: 1px solid aliceblue;
+    transition: 0.1s;
+}
+
+.materialize-textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    text-align: start;
+    background: rgb(18, 28, 41);
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    border-radius: 3px;
+}
+
+.input-mensagem h2 {
+    padding: 10px 0;
+}
+
+.containers-prof_edu {
+    line-height: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-qualificacoes {
+    overflow-y: scroll;
+    height: 40vh;
+    width: 46%;
+    flex-direction: column;
+    border-right: 4px solid aliceblue;
+}
+
+.cargo {
+    border-top: 1px solid aliceblue;
+    line-height: 2rem;
+    text-align: center;
+    font-family: 'Mirc-font';
+    font-size: 1.6rem;
+    color: var(--verde);
+}
+
+.periodo {
+    padding: 10px;
+    line-height: 2rem;
+    font-weight: lighter;
+    color: rgb(26, 157, 245);
+}
+
+@media screen and (max-width: 780px) {
+    .containers-prof_edu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .container-qualificacoes {
+        width: 100%;
+        height: 60vh;
+    }
+}

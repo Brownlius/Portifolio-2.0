@@ -52,7 +52,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+:root{
+   --verde: rgb(24, 214, 119);
+   --azul_claro :rgb(26, 157, 245);
 
+}
 @font-face {
     font-family: 'Mirc-font';
     src: url('./assets/fonts/mirc/FixedSys.ttf') format('truetype');
@@ -80,7 +84,7 @@ table {
  .subtitulo-azul{
     color: rgb(26, 157, 245);
     font-family: 'Mirc-font';
-    line-height: 1.9rem;
+    line-height: 1.9rem;   
     font-size: 1.5rem;
  }
  .subtitulo{
@@ -98,7 +102,7 @@ table {
     cursor: pointer;
  }
  ::-webkit-scrollbar {
-    width: 5px;
+    width: 10px;
  }   
  ::-webkit-scrollbar-track {
     background:rgb(19, 31, 46);     

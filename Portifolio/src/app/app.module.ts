@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
+import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { CurriculumComponent } from './components/curriculum/curriculum.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CabecalhoComponent,
-    HomeComponent
+    HeaderComponent,
+    HomeComponent,
+    FooterComponent,
+    CurriculumComponent
   ],
   imports: [
     BrowserModule,
